@@ -1,0 +1,21 @@
+public class Print10to50 {
+
+	public static void main(String[] args) {
+		
+		Scanner obj =new Scanner(System.in);
+		System.out.println("enter the num");
+		int amount=obj.nextInt();
+		
+		for(int i=0;i<amount;i++) {
+			
+			if(amount>=10&&amount<50) {
+				
+				amount++;
+			System.out.println(amount);
+				
+			}
+		}
+
+	}
+
+}
